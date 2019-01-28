@@ -1,0 +1,12 @@
+/**
+ * HTML <div> Editor Styles
+ *
+ * CSS for the backend worpdress editor
+ * @package Hyperspace-Me
+ * @since 1.0.0
+ */
+
+
+.wp-block[data-type="hyperspaceme/html-div"] > div.editor-block-list__block-edit > div[data-block] > div {
+  padding: 1rem;
+}

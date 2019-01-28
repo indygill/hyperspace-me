@@ -1,0 +1,20 @@
+/**
+ * HTML <div> Editor Styles
+ *
+ * CSS for the backend worpdress editor
+ * @package Hyperspace-Me
+ * @since 1.0.0
+ */
+
+
+.wp-block[data-type="hyperspaceme/cta-container"] > div.editor-block-list__block-edit > div[data-block] > ul.actions {
+  padding: 1rem;
+}
+
+.wp-block[data-type="hyperspaceme/cta-container"] > div.editor-block-list__block-edit > div[data-block] > ul.actions > div.editor-inner-blocks > div.editor-block-list__layout > .wp-block[data-type="hyperspaceme/cta-button"] {
+  padding: 0;
+}
+
+.wp-block[data-type="hyperspaceme/cta-container"] > div.editor-block-list__block-edit > div[data-block] > ul.actions > div.editor-inner-blocks > div.editor-block-list__layout > .wp-block[data-type="hyperspaceme/cta-button"] > div.editor-block-list__block-edit div[data-block] > li  {
+  list-style: none;
+}

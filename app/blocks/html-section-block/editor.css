@@ -1,0 +1,12 @@
+/**
+ * HTML <section> Editor Styles
+ *
+ * CSS for the backend worpdress editor
+ * @package Hyperspace-Me
+ * @since 1.0.0
+ */
+
+
+.wp-block[data-type="hyperspaceme/html-section"] > div.editor-block-list__block-edit > div[data-block] > section {
+  padding: 1rem;
+}

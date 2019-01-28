@@ -1,0 +1,30 @@
+/**
+ * Services Editor Styles
+ *
+ * CSS for the backend worpdress editor
+ * @package Hyperspace-Me
+ * @since 1.0.0
+ */
+
+
+.wp-block[data-type="hyperspaceme/services"] div[data-block] > section > span.icon {
+  width: 2.5em;
+  height: 2.5em;
+  display: block;
+  background: #ffffff;
+  border-radius: 100%;
+  color: #312450;
+  text-align: center;
+  line-height: 2.5em;
+  margin: 0 0 1.3em 0;
+}
+
+.wp-block[data-type="hyperspaceme/services"] div[data-block] > section > span.icon:before {
+  font-size: 1.25em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
