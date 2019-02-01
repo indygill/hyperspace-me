@@ -27,7 +27,7 @@ spl_autoload_register('hyperspaceme_autoloader');
 
 function phoneNumber(){
   $anchor = $_GET['anchor'];
-  $number = '07814 684 967';
+  $number = '07123 456 789';
   if ($anchor == 'false'){
     echo $number;
     wp_die();
@@ -40,7 +40,7 @@ add_action('wp_ajax_nopriv_phone_number', 'phoneNumber' );
 
 function emailAddress(){
   $anchor = $_GET['anchor'];
-  $meail = 'hello@indygill.com';
+  $meail = 'hello@example.com';
   if ($anchor == 'false'){
     echo $meail;
     wp_die();
